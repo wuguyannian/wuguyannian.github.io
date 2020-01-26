@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>titleText</title>
+  
+  <subtitle>subtitleText</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://wuguyannian.com/"/>
+  <updated>2020-01-26T10:41:42.311Z</updated>
+  <id>http://wuguyannian.com/</id>
+  
+  <author>
+    <name>authorText</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>表格保存</title>
+    <link href="http://wuguyannian.com/zh-CN/ue4-plugin-datatablesave/"/>
+    <id>http://wuguyannian.com/zh-CN/ue4-plugin-datatablesave/</id>
+    <published>2020-01-06T06:00:00.000Z</published>
+    <updated>2020-01-26T10:41:42.311Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;p&gt;这个插件帮助我们程序化地生成游戏关卡数据&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;程序化保存图块地图
+        
+      
+    
+    </summary>
+    
+    
+      <category term="虚幻4插件" scheme="http://wuguyannian.com/categories/UE4Plugin/"/>
+    
+    
+      <category term="插件" scheme="http://wuguyannian.com/tags/Plugin/"/>
+    
+      <category term="虚幻4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DataTable Save</title>
+    <link href="http://wuguyannian.com/ue4-plugin-datatablesave/"/>
+    <id>http://wuguyannian.com/ue4-plugin-datatablesave/</id>
+    <published>2020-01-05T09:30:25.000Z</published>
+    <updated>2020-01-26T10:41:43.416Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;p&gt;This plugin is help us to procedurally generate game level
+        
+      
+    
+    </summary>
+    
+    
+      <category term="UE4Plugin" scheme="http://wuguyannian.com/categories/UE4Plugin/"/>
+    
+    
+      <category term="Plugin" scheme="http://wuguyannian.com/tags/Plugin/"/>
+    
+      <category term="UE4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+  </entry>
+  
+</feed>
