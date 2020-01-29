@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wuguyannian.com/"/>
-  <updated>2020-01-26T11:01:05.815Z</updated>
+  <updated>2020-01-29T12:29:21.406Z</updated>
   <id>http://wuguyannian.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://wuguyannian.com/zh-CN/ue4-plugin-datatablesave/"/>
     <id>http://wuguyannian.com/zh-CN/ue4-plugin-datatablesave/</id>
     <published>2020-01-06T06:00:00.000Z</published>
-    <updated>2020-01-26T11:01:05.815Z</updated>
+    <updated>2020-01-29T12:29:21.406Z</updated>
     
     <summary type="html">
     
@@ -30,11 +30,8 @@
         
         
           &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
-&lt;p&gt;这个插件帮助我们程序化地生成游戏关卡数据&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;程序化保存图块地图
+&lt;ul&gt;
+&lt;li&gt;&lt;a
         
       
     
@@ -55,7 +52,7 @@
     <link href="http://wuguyannian.com/ue4-plugin-datatablesave/"/>
     <id>http://wuguyannian.com/ue4-plugin-datatablesave/</id>
     <published>2020-01-05T09:30:25.000Z</published>
-    <updated>2020-01-26T11:01:04.383Z</updated>
+    <updated>2020-01-29T12:27:22.573Z</updated>
     
     <summary type="html">
     
@@ -64,7 +61,8 @@
         
         
           &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
-&lt;p&gt;This plugin is help us to procedurally generate game level
+&lt;ul&gt;
+&lt;li&gt;&lt;a
         
       
     
