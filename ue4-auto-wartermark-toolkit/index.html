@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="keywords" content="Tool,Password Manager" />
-    <meta name="description" content="This is a clone from the official browser plugin modified by me" />
+    <meta name="keywords" content="UE4,Toolkit,Watermark" />
+    <meta name="description" content="Helps generate dynamic watermarks automatically" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <meta name="renderer" content="webkit|ie-stand|ie-comp" />
@@ -16,12 +16,12 @@
 
     
     <link
-        href="/zh-CN/Bitwarden-browser-client/"
+        href="/zh-CN/ue4-auto-wartermark-toolkit/"
         rel="alternate"
         hreflang="zh-CN"
     />
     
-    <title>Bitwarden brower client | Wuguyannian</title>
+    <title>Auto Watermark Toolkit | Wuguyannian</title>
     <link rel="icon" type="image/png" href="/favicon.png" />
 
     <link
@@ -141,7 +141,7 @@
             
             <li>
                 <a
-                    href="/Bitwarden-browser-client/"
+                    href="/ue4-auto-wartermark-toolkit/"
                 >
                     <span>English</span>
                 </a>
@@ -149,7 +149,7 @@
             
             <li>
                 <a
-                    href="/zh-CN/Bitwarden-browser-client/"
+                    href="/zh-CN/ue4-auto-wartermark-toolkit/"
                 >
                     <span>简体中文</span>
                 </a>
@@ -238,12 +238,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/assets/images/img01.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/assets/images/wartermark_00.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Bitwarden brower client</h1>
+                    <h1 class="description center-align post-title">Auto Watermark Toolkit</h1>
                 </div>
             </div>
         </div>
@@ -265,18 +265,27 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Tool/">
-                                <span class="chip bg-color">Tool</span>
+                            <a href="/tags/UE4/">
+                                <span class="chip bg-color">UE4</span>
                             </a>
                         
-                            <a href="/tags/Password-Manager/">
-                                <span class="chip bg-color">Password Manager</span>
+                            <a href="/tags/Watermark/">
+                                <span class="chip bg-color">Watermark</span>
                             </a>
                         
                     </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/UE4/" class="post-category">
+                                UE4
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -285,7 +294,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2020-01-31
+                    2020-05-24
                 </div>
                 
 
@@ -305,20 +314,28 @@
                 <html><head><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="titleText" type="application/atom+xml">
 </head><body><blockquote>
 <ul>
-<li><a href="https://github.com/wuguyannian/bitwarden-brower-client" target="_blank" rel="noopener">Project Link</a></li>
+<li>This tool can help us automatically generate dynamic watermark</li>
+<li>[Unreal Marketplace Link]</li>
 </ul>
 </blockquote>
-<blockquote>
-<p>Features</p>
-<ol>
-<li>login locally (modified by me)</li>
-<li>Create <code>Login, Card, Identity, SecureNote</code></li>
-<li>create <code>Folder</code></li>
-<li>AutoFill</li>
-<li>Current site account number prompt</li>
-<li>Password library import, export</li>
+<h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
+<li>Dissolve Material Effect</li>
+<li>Random movement</li>
+</ul>
+<h2 id="Steps"><a href="#Steps" class="headerlink" title="Steps"></a>Steps</h2><ol>
+<li>Import LOGO: Right-click on the directory and file menu shown below and select <code>Reimport with new file</code><br><img src="/assets/images/wartermark01.png" alt></li>
+<li>Import SUPPORT: Right-click on the directory and file menu shown below and select<code>Reimport with new file</code><br><img src="/assets/images/wartermark02.png" alt></li>
+<li>Import video: double-click the directory and file shown below to open, and click <code>...</code> after <code>file path</code> select your video file<br><img src="/assets/images/wartermark03.png" alt></li>
+<li>Set the video length: double-click the following file<br><img src="/assets/images/wartermark06_en.png" alt></li>
+<li>Set the video length: click the button below to modify the <code>end</code> frame number by multiply the number of frames per second by the number of seconds<br><img src="/assets/images/wartermark07_en.png" alt></li>
+<li>Sync video length: drag the following clip to sync with the end of the frame<br><img src="/assets/images/wartermark08_en.png" alt></li>
+<li>The initial frame number of LOGO: select the frame of LOGO and SURPPORT in the box and drag it to the appropriate starting position<br><img src="/assets/images/wartermark09_en.png" alt></li>
+<li>Click <code>Play</code></li>
 </ol>
-</blockquote>
+<h2 id="Optional"><a href="#Optional" class="headerlink" title="Optional"></a>Optional</h2><ol>
+<li>Add custom random range <code>(2)</code> and permanent position <code>(1)</code> : copy the following object and set it in the scene<br><img src="/assets/images/wartermark05.png" alt></li>
+<li>Configure custom random range and permanent position: select the corresponding object <code>(1)</code>, add random range <code>(3)</code> and permanent position configuration <code>(2)</code><br><img src="/assets/images/wartermark04.png" alt></li>
+</ol>
 </body></html>
             </div>
             <hr/>
@@ -344,7 +361,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wuguyannian.com/Bitwarden-browser-client/">http://wuguyannian.com/Bitwarden-browser-client/</a>
+                    <a href="http://wuguyannian.com/ue4-auto-wartermark-toolkit/">http://wuguyannian.com/ue4-auto-wartermark-toolkit/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -382,12 +399,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Tool/">
-                                    <span class="chip bg-color">Tool</span>
+                                <a href="/tags/UE4/">
+                                    <span class="chip bg-color">UE4</span>
                                 </a>
                             
-                                <a href="/tags/Password-Manager/">
-                                    <span class="chip bg-color">Password Manager</span>
+                                <a href="/tags/Watermark/">
+                                    <span class="chip bg-color">Watermark</span>
                                 </a>
                             
                         </div>
@@ -428,9 +445,63 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
+            <div class="card">
+                <a href="/ue4-auto-wartermark-toolkit/">
+                    <div class="card-image">
+                        
+                        <img src="/assets/images/wartermark_00.png" class="responsive-img" alt="Auto Watermark Toolkit">
+                        
+                        <span class="card-title">Auto Watermark Toolkit</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Helps generate dynamic watermarks automatically
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/UE4/" class="post-category">
+                                    UE4
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/UE4/">
+                        <span class="chip bg-color">UE4</span>
+                    </a>
+                    
+                    <a href="/tags/Watermark/">
+                        <span class="chip bg-color">Watermark</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/battlecity/">
                     <div class="card-image">
@@ -447,60 +518,8 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Game/" class="post-category">
-                                    Game
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/UE4/">
-                        <span class="chip bg-color">UE4</span>
-                    </a>
-                    
-                    <a href="/tags/Game/">
-                        <span class="chip bg-color">Game</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/spaceship/">
-                    <div class="card-image">
-                        
-                        <img src="/assets/images/img03.png" class="responsive-img" alt="SpaceShip">
-                        
-                        <span class="card-title">SpaceShip</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            This is a project for my video tutorial on bilibili
-                        
-                    </div>
-                    <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-06
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
                             </span>
                         <span class="publish-author">
                             

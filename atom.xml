@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wuguyannian.com/"/>
-  <updated>2020-01-31T12:13:44.762Z</updated>
+  <updated>2020-05-25T07:19:32.640Z</updated>
   <id>http://wuguyannian.com/</id>
   
   <author>
@@ -15,6 +15,131 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自动水印生成工具包</title>
+    <link href="http://wuguyannian.com/zh-CN/ue4-auto-watermark-toolkit/"/>
+    <id>http://wuguyannian.com/zh-CN/ue4-auto-watermark-toolkit/</id>
+    <published>2020-05-24T01:59:00.000Z</published>
+    <updated>2020-05-25T07:19:32.640Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;这款工具可以帮助我们自动生成动态水印&lt;/li&gt;
+&lt;li&gt;[虚幻商城 链接]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;特性&quot;&gt;&lt;a href=&quot;#特性&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="虚幻4" scheme="http://wuguyannian.com/categories/%E8%99%9A%E5%B9%BB4/"/>
+    
+    
+      <category term="虚幻4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="水印" scheme="http://wuguyannian.com/tags/Watermark/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Auto Watermark Toolkit</title>
+    <link href="http://wuguyannian.com/ue4-auto-wartermark-toolkit/"/>
+    <id>http://wuguyannian.com/ue4-auto-wartermark-toolkit/</id>
+    <published>2020-05-24T01:54:00.000Z</published>
+    <updated>2020-05-25T07:19:37.731Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;This tool can help us automatically generate dynamic watermark&lt;/li&gt;
+&lt;li&gt;[Unreal Marketplace
+        
+      
+    
+    </summary>
+    
+    
+      <category term="UE4" scheme="http://wuguyannian.com/categories/UE4/"/>
+    
+    
+      <category term="UE4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="Watermark" scheme="http://wuguyannian.com/tags/Watermark/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BattleCity</title>
+    <link href="http://wuguyannian.com/battlecity/"/>
+    <id>http://wuguyannian.com/battlecity/</id>
+    <published>2020-05-24T01:24:00.000Z</published>
+    <updated>2020-05-24T01:39:24.720Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;BattleCity&quot;&gt;&lt;a href=&quot;#BattleCity&quot; class=&quot;headerlink&quot; title=&quot;BattleCity&quot;&gt;&lt;/a&gt;BattleCity&lt;/h1&gt;&lt;p&gt;This is a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Game" scheme="http://wuguyannian.com/categories/Game/"/>
+    
+    
+      <category term="UE4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="Game" scheme="http://wuguyannian.com/tags/Game/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BattleCity</title>
+    <link href="http://wuguyannian.com/zh-CN/battlecity/"/>
+    <id>http://wuguyannian.com/zh-CN/battlecity/</id>
+    <published>2020-05-24T01:00:00.000Z</published>
+    <updated>2020-05-24T01:39:22.096Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;BattleCity&quot;&gt;&lt;a href=&quot;#BattleCity&quot; class=&quot;headerlink&quot; title=&quot;BattleCity&quot;&gt;&lt;/a&gt;BattleCity&lt;/h1&gt;&lt;p&gt;这是我，在&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="游戏" scheme="http://wuguyannian.com/categories/Game/"/>
+    
+    
+      <category term="虚幻4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="游戏" scheme="http://wuguyannian.com/tags/Game/"/>
+    
+  </entry>
   
   <entry>
     <title>Bitwarden brower client</title>
@@ -137,7 +262,7 @@
     <link href="http://wuguyannian.com/zh-CN/ue4-plugin-datatablesave/"/>
     <id>http://wuguyannian.com/zh-CN/ue4-plugin-datatablesave/</id>
     <published>2020-01-06T06:00:00.000Z</published>
-    <updated>2020-01-29T12:29:21.406Z</updated>
+    <updated>2020-05-25T07:19:35.694Z</updated>
     
     <summary type="html">
     
