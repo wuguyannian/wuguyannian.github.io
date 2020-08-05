@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="keywords" content="Tool,Password Manager" />
-    <meta name="description" content="This is a clone from the official browser plugin modified by me" />
+    <meta name="keywords" content="UE4,Toolkit,WeaponSystem" />
+    <meta name="description" content="weaponsystem missile laser grenade launcher" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <meta name="renderer" content="webkit|ie-stand|ie-comp" />
@@ -16,12 +16,12 @@
 
     
     <link
-        href="/zh-CN/Bitwarden-browser-client/"
+        href="/zh-CN/ue4-BMWeaponSystem/"
         rel="alternate"
         hreflang="zh-CN"
     />
     
-    <title>Bitwarden brower client | Wuguyannian</title>
+    <title>BM Weapon System | Wuguyannian</title>
     <link rel="icon" type="image/png" href="/favicon.png" />
 
     <link
@@ -141,7 +141,7 @@
             
             <li>
                 <a
-                    href="/Bitwarden-browser-client/"
+                    href="/ue4-BMWeaponSystem/"
                 >
                     <span>English</span>
                 </a>
@@ -149,7 +149,7 @@
             
             <li>
                 <a
-                    href="/zh-CN/Bitwarden-browser-client/"
+                    href="/zh-CN/ue4-BMWeaponSystem/"
                 >
                     <span>简体中文</span>
                 </a>
@@ -238,12 +238,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/assets/images/img01.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/assets/images/MarketplaceLogo.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Bitwarden brower client</h1>
+                    <h1 class="description center-align post-title">BM Weapon System</h1>
                 </div>
             </div>
         </div>
@@ -265,18 +265,27 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Tool/">
-                                <span class="chip bg-color">Tool</span>
+                            <a href="/tags/UE4/">
+                                <span class="chip bg-color">UE4</span>
                             </a>
                         
-                            <a href="/tags/Password-Manager/">
-                                <span class="chip bg-color">Password Manager</span>
+                            <a href="/tags/WeaponSystem/">
+                                <span class="chip bg-color">WeaponSystem</span>
                             </a>
                         
                     </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/UE4/" class="post-category">
+                                UE4
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -285,7 +294,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2020-01-31
+                    2020-08-05
                 </div>
                 
 
@@ -305,20 +314,45 @@
                 <html><head><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><link rel="alternate" href="/atom.xml" title="titleText" type="application/atom+xml">
 <meta name="generator" content="Hexo 4.2.0"></head><body><blockquote>
 <ul>
-<li><a href="https://github.com/wuguyannian/bitwarden-brower-client" target="_blank" rel="noopener">Project Link</a></li>
+<li>This Plugin create the base shooting flow framework, and implements the main shooting types.</li>
 </ul>
 </blockquote>
-<blockquote>
-<p>Features</p>
-<ol>
-<li>login locally (modified by me)</li>
-<li>Create <code>Login, Card, Identity, SecureNote</code></li>
-<li>create <code>Folder</code></li>
-<li>AutoFill</li>
-<li>Current site account number prompt</li>
-<li>Password library import, export</li>
+<h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
+<li>C++ implementation of base Shoot flow framework</li>
+<li>Aim system (just add a component and implements a interface)</li>
+<li>C++ implementation of Scan for Laser, Missile, Launcher</li>
+<li>The missile targets are evaluated and the best target is selected by different scoring system</li>
+<li>The Launcher supports the prediction path and attacks the specified target</li>
+<li>Laser presentation implementation in blueprint</li>
+<li>Launcher presentation implementation in blueprint</li>
+<li>Missile presentation implementation in blueprint</li>
+<li>Cannon(normal weapon) presentation implementation in blueprint</li>
+<li>Target Unit in blueprint</li>
+<li>Tank Unit in blueprint</li>
+<li>Character Unit in blueprint</li>
+<li>Tank Controller in blueprint and c++</li>
+<li>Character Controller blueprint</li>
+<li>Weapons are loaded by DataTable</li>
+<li>Character and Tank use the same weapon system and data</li>
+<li>Character and Tank use mesh sockets to make weapon difference</li>
+</ul>
+<h2 id="Steps"><a href="#Steps" class="headerlink" title="Steps"></a>Steps</h2><ol>
+<li>Create Object Collision Type <code>Bullet</code></li>
+<li>Add Input Action<ol>
+<li><code>Shoot</code>: Space/LMouse Button</li>
+<li><code>SwitchWeapon</code>: Q</li>
 </ol>
-</blockquote>
+</li>
+<li>Add Input Axis<ol>
+<li><code>MoveRight</code>: A/D</li>
+<li><code>MoveForward</code>: W/S</li>
+<li><code>AimRight</code>: H/K</li>
+<li><code>AimForward</code>: U/J</li>
+</ol>
+</li>
+<li>Set GameMode to <code>BP_BMGameMode</code></li>
+<li>Set Map to <code>BMWeaponExamleMap</code></li>
+</ol>
 </body></html>
             </div>
             <hr/>
@@ -344,7 +378,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wuguyannian.com/Bitwarden-browser-client/">http://wuguyannian.com/Bitwarden-browser-client/</a>
+                    <a href="http://wuguyannian.com/ue4-BMWeaponSystem/">http://wuguyannian.com/ue4-BMWeaponSystem/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -382,12 +416,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Tool/">
-                                    <span class="chip bg-color">Tool</span>
+                                <a href="/tags/UE4/">
+                                    <span class="chip bg-color">UE4</span>
                                 </a>
                             
-                                <a href="/tags/Password-Manager/">
-                                    <span class="chip bg-color">Password Manager</span>
+                                <a href="/tags/WeaponSystem/">
+                                    <span class="chip bg-color">WeaponSystem</span>
                                 </a>
                             
                         </div>
@@ -428,40 +462,42 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/battlecity/">
+                <a href="/ue4-BMWeaponSystem/">
                     <div class="card-image">
                         
-                        <img src="/assets/images/battlecity01.png" class="responsive-img" alt="BattleCity">
+                        <img src="/assets/images/MarketplaceLogo.png" class="responsive-img" alt="BM Weapon System">
                         
-                        <span class="card-title">BattleCity</span>
+                        <span class="card-title">BM Weapon System</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            This is a project for my video tutorial on bilibili
+                            weaponsystem missile laser grenade launcher
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-05
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Game/" class="post-category">
-                                    Game
+                            <a href="/categories/UE4/" class="post-category">
+                                    UE4
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -469,8 +505,8 @@
                         <span class="chip bg-color">UE4</span>
                     </a>
                     
-                    <a href="/tags/Game/">
-                        <span class="chip bg-color">Game</span>
+                    <a href="/tags/WeaponSystem/">
+                        <span class="chip bg-color">WeaponSystem</span>
                     </a>
                     
                 </div>
@@ -484,30 +520,30 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/spaceship/">
+                <a href="/ue4-auto-wartermark-toolkit/">
                     <div class="card-image">
                         
-                        <img src="/assets/images/img03.png" class="responsive-img" alt="SpaceShip">
+                        <img src="/assets/images/wartermark_00.png" class="responsive-img" alt="Auto Watermark Toolkit">
                         
-                        <span class="card-title">SpaceShip</span>
+                        <span class="card-title">Auto Watermark Toolkit</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            This is a project for my video tutorial on bilibili
+                            Helps generate dynamic watermarks automatically
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-06
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Game/" class="post-category">
-                                    Game
+                            <a href="/categories/UE4/" class="post-category">
+                                    UE4
                                 </a>
                             
                             
@@ -521,8 +557,8 @@
                         <span class="chip bg-color">UE4</span>
                     </a>
                     
-                    <a href="/tags/Game/">
-                        <span class="chip bg-color">Game</span>
+                    <a href="/tags/Watermark/">
+                        <span class="chip bg-color">Watermark</span>
                     </a>
                     
                 </div>

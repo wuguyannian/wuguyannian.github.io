@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wuguyannian.com/"/>
-  <updated>2020-05-25T07:19:32.640Z</updated>
+  <updated>2020-08-05T12:31:20.297Z</updated>
   <id>http://wuguyannian.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BM Weapon System</title>
+    <link href="http://wuguyannian.com/ue4-BMWeaponSystem/"/>
+    <id>http://wuguyannian.com/ue4-BMWeaponSystem/</id>
+    <published>2020-08-05T12:30:00.000Z</published>
+    <updated>2020-08-05T12:31:20.297Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;This Plugin create the base shooting flow framework, and implements the main shooting
+        
+      
+    
+    </summary>
+    
+    
+      <category term="UE4" scheme="http://wuguyannian.com/categories/UE4/"/>
+    
+    
+      <category term="UE4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="WeaponSystem" scheme="http://wuguyannian.com/tags/WeaponSystem/"/>
+    
+  </entry>
   
   <entry>
     <title>自动水印生成工具包</title>
@@ -56,7 +87,7 @@
     <link href="http://wuguyannian.com/ue4-auto-wartermark-toolkit/"/>
     <id>http://wuguyannian.com/ue4-auto-wartermark-toolkit/</id>
     <published>2020-05-24T01:54:00.000Z</published>
-    <updated>2020-05-25T07:19:37.731Z</updated>
+    <updated>2020-05-25T07:22:55.181Z</updated>
     
     <summary type="html">
     
