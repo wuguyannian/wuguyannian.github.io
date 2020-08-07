@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wuguyannian.com/"/>
-  <updated>2020-08-06T00:42:22.665Z</updated>
+  <updated>2020-08-07T01:18:41.855Z</updated>
   <id>http://wuguyannian.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://wuguyannian.com/ue4-BMWeaponSystem/"/>
     <id>http://wuguyannian.com/ue4-BMWeaponSystem/</id>
     <published>2020-08-05T12:30:00.000Z</published>
-    <updated>2020-08-06T00:42:22.665Z</updated>
+    <updated>2020-08-07T01:18:41.855Z</updated>
     
     <summary type="html">
     
@@ -44,6 +44,40 @@
       <category term="UE4" scheme="http://wuguyannian.com/tags/UE4/"/>
     
       <category term="WeaponSystem" scheme="http://wuguyannian.com/tags/WeaponSystem/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BM 武器系统</title>
+    <link href="http://wuguyannian.com/zh-CN/ue4-BMWeaponSystem/"/>
+    <id>http://wuguyannian.com/zh-CN/ue4-BMWeaponSystem/</id>
+    <published>2020-08-05T12:30:00.000Z</published>
+    <updated>2020-08-07T01:36:51.103Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;这个插件创建了基础设计流程框架，并实现了主要的射击类型。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;特性&quot;&gt;&lt;a href=&quot;#特性&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="虚幻4插件" scheme="http://wuguyannian.com/categories/UE4Plugin/"/>
+    
+    
+      <category term="虚幻4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="武器系统" scheme="http://wuguyannian.com/tags/%E6%AD%A6%E5%99%A8%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   

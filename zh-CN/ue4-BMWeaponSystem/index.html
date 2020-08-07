@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="keywords" content="虚幻4,工具包,水印" />
-    <meta name="description" content="帮助自动生成动态水印" />
+    <meta name="keywords" content="虚幻4,工具包,武器系统" />
+    <meta name="description" content="武器系统 导弹 激光 榴弹 发射器" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <meta name="renderer" content="webkit|ie-stand|ie-comp" />
@@ -16,12 +16,12 @@
 
     
     <link
-        href="/ue4-auto-watermark-toolkit/"
+        href="/ue4-BMWeaponSystem/"
         rel="alternate"
         hreflang="en"
     />
     
-    <title>自动水印生成工具包 | 五谷延年</title>
+    <title>BM 武器系统 | 五谷延年</title>
     <link rel="icon" type="image/png" href="/favicon.png" />
 
     <link
@@ -141,7 +141,7 @@
             
             <li>
                 <a
-                    href="/ue4-auto-watermark-toolkit/"
+                    href="/ue4-BMWeaponSystem/"
                 >
                     <span>English</span>
                 </a>
@@ -149,7 +149,7 @@
             
             <li>
                 <a
-                    href="/zh-CN/ue4-auto-watermark-toolkit/"
+                    href="/zh-CN/ue4-BMWeaponSystem/"
                 >
                     <span>简体中文</span>
                 </a>
@@ -238,12 +238,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/assets/images/wartermark_00.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/assets/images/MarketplaceLogo.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">自动水印生成工具包</h1>
+                    <h1 class="description center-align post-title">BM 武器系统</h1>
                 </div>
             </div>
         </div>
@@ -269,8 +269,8 @@
                                 <span class="chip bg-color">虚幻4</span>
                             </a>
                         
-                            <a href="/tags/Watermark/">
-                                <span class="chip bg-color">水印</span>
+                            <a href="/tags/%E6%AD%A6%E5%99%A8%E7%B3%BB%E7%BB%9F/">
+                                <span class="chip bg-color">武器系统</span>
                             </a>
                         
                     </div>
@@ -281,8 +281,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E8%99%9A%E5%B9%BB4/" class="post-category">
-                                虚幻4
+                            <a href="/categories/UE4Plugin/" class="post-category">
+                                虚幻4插件
                             </a>
                         
                     </div>
@@ -294,7 +294,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-24
+                    2020-08-05
                 </div>
                 
 
@@ -314,27 +314,58 @@
                 <html><head><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="titleText" type="application/atom+xml">
 </head><body><blockquote>
 <ul>
-<li>这款工具可以帮助我们自动生成动态水印</li>
-<li>[虚幻商城 链接]</li>
+<li>这个插件创建了基础设计流程框架，并实现了主要的射击类型。</li>
 </ul>
 </blockquote>
 <h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><ul>
-<li>溶解材质特效</li>
-<li>随机移动</li>
+<li>基础设计流程框架的C++ 实现</li>
+<li>瞄准系统 （仅需添加一个组件并实现一个接口）</li>
+<li>扫描系统的C++实现（用于激光，导弹，发射器）</li>
+<li>导弹的目标会被评估，根据不同的评分系统选取最优目标</li>
+<li>发射器支持预测路径，根据路径攻击指定目标</li>
+<li>激光表现层的蓝图实现</li>
+<li>发射器表现层的蓝图实现</li>
+<li>导弹表现层的蓝图实现</li>
+<li>大炮（普通武器）表现层的蓝图实现</li>
+<li>标靶单位的蓝图实现</li>
+<li>坦克单位的蓝图实现</li>
+<li>角色单位的蓝图实现</li>
+<li>坦克控制器蓝图和C++实现</li>
+<li>角色控制器的蓝图实现</li>
+<li>武器由表格加载</li>
+<li>角色和坦克使用同一套武器系统和数据（只需开发一遍，两者同时可使用，因为武器系统是逻辑处理）</li>
+<li>角色和坦克使用模型插槽来做出武器差异（使用插槽控制子弹数量/激光数量，射击方向）</li>
 </ul>
 <h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol>
-<li>导入LOGO: 对下图所示目录与文件右键菜单，选择<code>用新文件重新导入</code><br><img src="/assets/images/wartermark01.png" alt></li>
-<li>导入SUPPORT: 对下图所示目录与文件右键菜单，选择<code>用新文件重新导入</code><br><img src="/assets/images/wartermark02.png" alt></li>
-<li>导入视频: 对下图所示目录与文件双击打开，点击<code>文件路径</code>后的<code>...</code>选择视频文件<br><img src="/assets/images/wartermark03.png" alt></li>
-<li>设置视频长度：双击下图文件<br><img src="/assets/images/wartermark06.png" alt></li>
-<li>设置视频长度：点击下图按钮，修改<code>结束</code>帧数，用每秒帧数乘以秒数<br><img src="/assets/images/wartermark07.png" alt></li>
-<li>同步视频长度：拖拽下图剪辑，与帧数结尾同步<br><img src="/assets/images/wartermark08.png" alt></li>
-<li>LOGO出现起始帧数：框选LOGO和SURPPORT的帧，拖拽到合适起始位置<br><img src="/assets/images/wartermark09.png" alt></li>
-<li>点击<code>运行</code></li>
+<li>启用插件并重启</li>
+<li>创建物体碰撞类型<ol>
+<li><code>设置</code> -> <code>碰撞</code></li>
+<li><code>新建Object通道</code>: 名称 -> <code>Bullet</code></li>
 </ol>
-<h2 id="可选"><a href="#可选" class="headerlink" title="可选"></a>可选</h2><ol>
-<li>添加自定义随机范围<code>(2)</code>和固定位置<code>(1)</code>：复制下图物体，并在场景中设置好<br><img src="/assets/images/wartermark05.png" alt></li>
-<li>配置自定义随机范围和固定位置：选择相应物体<code>(1)</code>，添加随机范围<code>(3)</code>和固定位置配置<code>(2)</code>配置<br><img src="/assets/images/wartermark04.png" alt></li>
+</li>
+<li>添加操作映射<ol>
+<li><code>Shoot</code>: 空格/鼠标左键</li>
+<li><code>SwitchWeapon</code>: Q</li>
+</ol>
+</li>
+<li>添加轴映射<ol>
+<li><code>MoveRight</code>: A/D</li>
+<li><code>MoveForward</code>: W/S</li>
+<li><code>AimRight</code>: H/K</li>
+<li><code>AimForward</code>: U/J</li>
+</ol>
+</li>
+<li>在<code>内容浏览器</code>的<code>视图选项</code>中设置<code>显示插件内容</code>（右下角）</li>
+<li>设置游戏模式和地图<ol>
+<li><code>设置</code> -> <code>地图和模式</code></li>
+<li><code>默认游戏模式</code> -> <code>BP_BMGameMode</code></li>
+<li><code>编辑器启动地图</code> -> <code>BMWeaponExamleMap</code></li>
+</ol>
+</li>
+<li>打开地图<ol>
+<li>点击[浏览到内容浏览器中的<code>BMWeaponExamleMap</code>]（右边的圆形图标）</li>
+</ol>
+</li>
 </ol>
 </body></html>
             </div>
@@ -361,7 +392,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wuguyannian.com/zh-CN/ue4-auto-watermark-toolkit/">http://wuguyannian.com/zh-CN/ue4-auto-watermark-toolkit/</a>
+                    <a href="http://wuguyannian.com/zh-CN/ue4-BMWeaponSystem/">http://wuguyannian.com/zh-CN/ue4-BMWeaponSystem/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -403,8 +434,8 @@
                                     <span class="chip bg-color">虚幻4</span>
                                 </a>
                             
-                                <a href="/tags/Watermark/">
-                                    <span class="chip bg-color">水印</span>
+                                <a href="/tags/%E6%AD%A6%E5%99%A8%E7%B3%BB%E7%BB%9F/">
+                                    <span class="chip bg-color">武器系统</span>
                                 </a>
                             
                         </div>
@@ -445,9 +476,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/zh-CN/ue4-BMWeaponSystem/">
                     <div class="card-image">
@@ -464,9 +496,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-08-05
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-05
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -479,6 +511,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -501,18 +534,18 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/zh-CN/battlecity/">
+                <a href="/zh-CN/ue4-auto-watermark-toolkit/">
                     <div class="card-image">
                         
-                        <img src="/assets/images/battlecity01.png" class="responsive-img" alt="BattleCity">
+                        <img src="/assets/images/wartermark_00.png" class="responsive-img" alt="自动水印生成工具包">
                         
-                        <span class="card-title">BattleCity</span>
+                        <span class="card-title">自动水印生成工具包</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            这是我，在哔哩哔哩的视频教程的工程文件
+                            帮助自动生成动态水印
                         
                     </div>
                     <div class="publish-info">
@@ -523,8 +556,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Game/" class="post-category">
-                                    游戏
+                            <a href="/categories/%E8%99%9A%E5%B9%BB4/" class="post-category">
+                                    虚幻4
                                 </a>
                             
                             
@@ -538,8 +571,8 @@
                         <span class="chip bg-color">虚幻4</span>
                     </a>
                     
-                    <a href="/tags/Game/">
-                        <span class="chip bg-color">游戏</span>
+                    <a href="/tags/Watermark/">
+                        <span class="chip bg-color">水印</span>
                     </a>
                     
                 </div>
