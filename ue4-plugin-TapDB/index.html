@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="keywords" content="UE4,Toolkit,Watermark" />
-    <meta name="description" content="Helps generate dynamic watermarks automatically" />
+    <meta name="keywords" content="UE4,Plugin" />
+    <meta name="description" content="Unreal Plugin TapDB" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <meta name="renderer" content="webkit|ie-stand|ie-comp" />
@@ -16,12 +16,12 @@
 
     
     <link
-        href="/zh-CN/ue4-auto-wartermark-toolkit/"
+        href="/zh-CN/ue4-plugin-TapDB/"
         rel="alternate"
         hreflang="zh-CN"
     />
     
-    <title>Auto Watermark Toolkit | Wuguyannian</title>
+    <title>Unreal Plugin TapDB | Wuguyannian</title>
     <link rel="icon" type="image/png" href="/favicon.png" />
 
     <link
@@ -141,7 +141,7 @@
             
             <li>
                 <a
-                    href="/ue4-auto-wartermark-toolkit/"
+                    href="/ue4-plugin-TapDB/"
                 >
                     <span>English</span>
                 </a>
@@ -149,7 +149,7 @@
             
             <li>
                 <a
-                    href="/zh-CN/ue4-auto-wartermark-toolkit/"
+                    href="/zh-CN/ue4-plugin-TapDB/"
                 >
                     <span>简体中文</span>
                 </a>
@@ -238,12 +238,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/assets/images/wartermark_00.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/assets/images/tapdb01.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Auto Watermark Toolkit</h1>
+                    <h1 class="description center-align post-title">Unreal Plugin TapDB</h1>
                 </div>
             </div>
         </div>
@@ -269,8 +269,8 @@
                                 <span class="chip bg-color">UE4</span>
                             </a>
                         
-                            <a href="/tags/Watermark/">
-                                <span class="chip bg-color">Watermark</span>
+                            <a href="/tags/Plugin/">
+                                <span class="chip bg-color">Plugin</span>
                             </a>
                         
                     </div>
@@ -314,27 +314,25 @@
                 <html><head><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="titleText" type="application/atom+xml">
 </head><body><blockquote>
 <ul>
-<li>This tool can help us automatically generate dynamic watermark</li>
-<li>[Unreal Marketplace Link]</li>
+<li>This is a plugin that helps link to the third party library TapDB and is currently only available for basic stand-alone computers</li>
+<li>[Unreal Marketplace]</li>
+<li><a href="https://www.tapdb.com" target="_blank" rel="noopener">official Website</a></li>
 </ul>
 </blockquote>
 <h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
-<li>Dissolve Material Effect</li>
-<li>Random movement</li>
+<li>Set <code>AppId</code> in the <code>ProjectSettings</code></li>
+<li>Enable <code>OAID</code> in the <code>ProjectSettings</code></li>
 </ul>
 <h2 id="Steps"><a href="#Steps" class="headerlink" title="Steps"></a>Steps</h2><ol>
-<li>Import LOGO: Right-click on the directory and file menu shown below and select <code>Reimport with new file</code><br><img src="/assets/images/wartermark01.png" alt></li>
-<li>Import SUPPORT: Right-click on the directory and file menu shown below and select<code>Reimport with new file</code><br><img src="/assets/images/wartermark02.png" alt></li>
-<li>Import video: double-click the directory and file shown below to open, and click <code>...</code> after <code>file path</code> select your video file<br><img src="/assets/images/wartermark03.png" alt></li>
-<li>Set the video length: double-click the following file<br><img src="/assets/images/wartermark06_en.png" alt></li>
-<li>Set the video length: click the button below to modify the <code>end</code> frame number by multiply the number of frames per second by the number of seconds<br><img src="/assets/images/wartermark07_en.png" alt></li>
-<li>Sync video length: drag the following clip to sync with the end of the frame<br><img src="/assets/images/wartermark08_en.png" alt></li>
-<li>The initial frame number of LOGO: select the frame of LOGO and SURPPORT in the box and drag it to the appropriate starting position<br><img src="/assets/images/wartermark09_en.png" alt></li>
-<li>Click <code>Play</code></li>
-</ol>
-<h2 id="Optional"><a href="#Optional" class="headerlink" title="Optional"></a>Optional</h2><ol>
-<li>Add custom random range <code>(2)</code> and permanent position <code>(1)</code> : copy the following object and set it in the scene<br><img src="/assets/images/wartermark05.png" alt></li>
-<li>Configure custom random range and permanent position: select the corresponding object <code>(1)</code>, add random range <code>(3)</code> and permanent position configuration <code>(2)</code><br><img src="/assets/images/wartermark04.png" alt></li>
+<li>Click Register to create <code>TapDB</code> account, or log in to <code>TapDB</code> account</li>
+<li>Create<code>Corporate</code></li>
+<li>Click <code>new item</code></li>
+<li>Set the Name， then <code>Generate games</code></li>
+<li>Copy <code>AppId</code> what is generated by name</li>
+<li>Paste to Unreal->ProjectSettings->TapDB->AppId</li>
+<li>Run your Android Game</li>
+<li>Click the project on the official website of <code>TapDB</code>. After passing the test, you can click <code>Debugging completed, enter the project</code></li>
+<li>Finish. Look at your datas</li>
 </ol>
 </body></html>
             </div>
@@ -361,7 +359,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wuguyannian.com/ue4-auto-wartermark-toolkit/">http://wuguyannian.com/ue4-auto-wartermark-toolkit/</a>
+                    <a href="http://wuguyannian.com/ue4-plugin-TapDB/">http://wuguyannian.com/ue4-plugin-TapDB/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -403,8 +401,8 @@
                                     <span class="chip bg-color">UE4</span>
                                 </a>
                             
-                                <a href="/tags/Watermark/">
-                                    <span class="chip bg-color">Watermark</span>
+                                <a href="/tags/Plugin/">
+                                    <span class="chip bg-color">Plugin</span>
                                 </a>
                             
                         </div>
@@ -449,23 +447,23 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/ue4-BMWeaponSystem/">
+                <a href="/ue4-auto-wartermark-toolkit/">
                     <div class="card-image">
                         
-                        <img src="/assets/images/MarketplaceLogo.png" class="responsive-img" alt="BM Weapon System">
+                        <img src="/assets/images/wartermark_00.png" class="responsive-img" alt="Auto Watermark Toolkit">
                         
-                        <span class="card-title">BM Weapon System</span>
+                        <span class="card-title">Auto Watermark Toolkit</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            weaponsystem missile laser grenade launcher
+                            Helps generate dynamic watermarks automatically
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-08-05
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
                         </span>
                         <span class="publish-author">
                             
@@ -486,8 +484,8 @@
                         <span class="chip bg-color">UE4</span>
                     </a>
                     
-                    <a href="/tags/WeaponSystem/">
-                        <span class="chip bg-color">WeaponSystem</span>
+                    <a href="/tags/Watermark/">
+                        <span class="chip bg-color">Watermark</span>
                     </a>
                     
                 </div>
@@ -501,18 +499,18 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/ue4-plugin-TapDB/">
+                <a href="/battlecity/">
                     <div class="card-image">
                         
-                        <img src="/assets/images/tapdb01.png" class="responsive-img" alt="Unreal Plugin TapDB">
+                        <img src="/assets/images/battlecity01.png" class="responsive-img" alt="BattleCity">
                         
-                        <span class="card-title">Unreal Plugin TapDB</span>
+                        <span class="card-title">BattleCity</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Unreal Plugin TapDB
+                            This is a project for my video tutorial on bilibili
                         
                     </div>
                     <div class="publish-info">
@@ -523,8 +521,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/UE4/" class="post-category">
-                                    UE4
+                            <a href="/categories/Game/" class="post-category">
+                                    Game
                                 </a>
                             
                             
@@ -538,8 +536,8 @@
                         <span class="chip bg-color">UE4</span>
                     </a>
                     
-                    <a href="/tags/Plugin/">
-                        <span class="chip bg-color">Plugin</span>
+                    <a href="/tags/Game/">
+                        <span class="chip bg-color">Game</span>
                     </a>
                     
                 </div>
