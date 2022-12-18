@@ -1,0 +1,784 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="虚幻5,插件,游戏" />
+    <meta name="description" content="虚幻插件InputRecord" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit|ie-stand|ie-comp" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    
+    <link
+        href="/ue5-Plugin-InputRecord/"
+        rel="alternate"
+        hreflang="en"
+    />
+    
+    <title>虚幻插件InputRecord | 五谷延年</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="/libs/awesome/css/all.css"
+    />
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="/libs/materialize/materialize.min.css"
+    />
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="/libs/aos/aos.css"
+    />
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="/libs/animate/animate.min.css"
+    />
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="/libs/lightGallery/css/lightgallery.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/matery.css" />
+    <link rel="stylesheet" type="text/css" href="/css/my.css" />
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="titleText" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/zh-CN" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img responsive-img"
+                        alt="LOGO">
+                    
+                </a>
+            </div>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse">
+    <i class="fas fa-bars"></i>
+</a>
+<ul class="right nav-menu">
+    
+    
+    <li class="hide-on-med-and-down nav-item">
+        
+        <a href="/zh-CN/" class="waves-effect waves-light">
+            
+            <i class="fas fa-home" style="zoom: 0.6;"></i>
+            
+            <span>首页</span>
+        </a>
+        
+    </li>
+    
+    <li class="hide-on-med-and-down nav-item">
+        
+        <a href="/zh-CN/tags" class="waves-effect waves-light">
+            
+            <i class="fas fa-tags" style="zoom: 0.6;"></i>
+            
+            <span>标签</span>
+        </a>
+        
+    </li>
+    
+    <li class="hide-on-med-and-down nav-item">
+        
+        <a href="/zh-CN/categories" class="waves-effect waves-light">
+            
+            <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+            
+            <span>分类</span>
+        </a>
+        
+    </li>
+    
+    <li class="hide-on-med-and-down nav-item">
+        
+        <a href="/zh-CN/archives" class="waves-effect waves-light">
+            
+            <i class="fas fa-archive" style="zoom: 0.6;"></i>
+            
+            <span>归档</span>
+        </a>
+        
+    </li>
+    
+    <li class="hide-on-med-and-down nav-item">
+        
+        <a href="/zh-CN/about" class="waves-effect waves-light">
+            
+            <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+            
+            <span>关于</span>
+        </a>
+        
+    </li>
+    
+
+    <li>
+        <a href="javascript:;" class="waves-effect waves-light">
+            <i class="fas fa-globe" style="zoom: 0.6;"></i>
+            <span>简体中文</span>
+            <i class="fas fa-caret-down" aria-hidden="true" style="zoom: 0.6;"></i>
+        </a>
+        <ul class="sub-nav menus_item_child ">
+            
+            <li>
+                <a
+                    href="/ue5-Plugin-InputRecord/"
+                >
+                    <span>English</span>
+                </a>
+            </li>
+            
+            <li>
+                <a
+                    href="/zh-CN/ue5-Plugin-InputRecord/"
+                >
+                    <span>简体中文</span>
+                </a>
+            </li>
+            
+        </ul>
+    </li>
+    <li>
+        <a href="javascript:;" class="search waves-effect waves-light">
+            <i
+                id="searchIcon"
+                class="fas fa-search"
+                title="搜索"
+                style="zoom: 0.85;"
+            ></i>
+        </a>
+    </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+    <div class="mobile-head bg-color">
+        <div class="logo-name">五谷延年</div>
+        <div class="logo-desc">百书增识，五谷益寿</div>
+    </div>
+    <ul class="menu-list mobile-menu-list">
+         
+        <li class="m-nav-item">
+            
+            <a href="/zh-CN/" class="waves-effect waves-light">
+                
+                <i class="fa-fw fas fa-home"></i>
+                 首页
+            </a>
+            
+        </li>
+        
+        <li class="m-nav-item">
+            
+            <a href="/zh-CN/tags" class="waves-effect waves-light">
+                
+                <i class="fa-fw fas fa-tags"></i>
+                 标签
+            </a>
+            
+        </li>
+        
+        <li class="m-nav-item">
+            
+            <a href="/zh-CN/categories" class="waves-effect waves-light">
+                
+                <i class="fa-fw fas fa-bookmark"></i>
+                 分类
+            </a>
+            
+        </li>
+        
+        <li class="m-nav-item">
+            
+            <a href="/zh-CN/archives" class="waves-effect waves-light">
+                
+                <i class="fa-fw fas fa-archive"></i>
+                 归档
+            </a>
+            
+        </li>
+        
+        <li class="m-nav-item">
+            
+            <a href="/zh-CN/about" class="waves-effect waves-light">
+                
+                <i class="fa-fw fas fa-user-circle"></i>
+                 关于
+            </a>
+            
+        </li>
+         
+</ul>
+</div>
+
+        </div>
+
+        
+    </nav>
+</header>
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/assets/images/InputRecord00.png')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">虚幻插件InputRecord</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Game/">
+                                <span class="chip bg-color">游戏</span>
+                            </a>
+                        
+                            <a href="/tags/Plugin/">
+                                <span class="chip bg-color">插件</span>
+                            </a>
+                        
+                            <a href="/tags/UE5/">
+                                <span class="chip bg-color">虚幻5</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Game/" class="post-category">
+                                游戏
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2022-12-28
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <html><head><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="titleText" type="application/atom+xml">
+</head><body><blockquote>
+<ul>
+<li>用于记录并播放玩家输入，以保存一致的测试环境，辅助如载具配置的调整</li>
+<li><a href="">插件 链接</a><br>// 插件链接将于1月更新</li>
+</ul>
+</blockquote>
+<h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><ol>
+<li>记录玩家输入</li>
+<li>播放玩家输入</li>
+<li>保存记录到文件</li>
+<li>读取记录到文件</li>
+</ol>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol>
+<li>在玩家控制器中添加InputRecord组件<br><img src="/assets/images/InputRecord01.png" alt=""></li>
+<li>添加按键和功能<br><img src="/assets/images/InputRecord02.png" alt=""></li>
+<li>1开始录制输入(内存)</li>
+<li>2结束录制输入(内存)</li>
+<li>3播放录制输入(内存)</li>
+<li>4保存输入录制(文件)(Game\Saved\Inputs\ControlName_PawnName.inputrec)</li>
+<li>5读取输入录制(文件)</li>
+</ol>
+</body></html>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://wuguyannian.com" rel="external nofollow noreferrer">五谷延年</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://wuguyannian.com/zh-CN/ue5-Plugin-InputRecord/">http://wuguyannian.com/zh-CN/ue5-Plugin-InputRecord/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by-nd/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY-ND 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="http://wuguyannian.com" target="_blank">五谷延年</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Game/">
+                                    <span class="chip bg-color">游戏</span>
+                                </a>
+                            
+                                <a href="/tags/Plugin/">
+                                    <span class="chip bg-color">插件</span>
+                                </a>
+                            
+                                <a href="/tags/UE5/">
+                                    <span class="chip bg-color">虚幻5</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/zh-CN/ue5-Plugin-InputRecord/">
+                    <div class="card-image">
+                        
+                        <img src="/assets/images/InputRecord00.png" class="responsive-img" alt="虚幻插件InputRecord">
+                        
+                        <span class="card-title">虚幻插件InputRecord</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            虚幻插件InputRecord
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-12-28
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Game/" class="post-category">
+                                    游戏
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Game/">
+                        <span class="chip bg-color">游戏</span>
+                    </a>
+                    
+                    <a href="/tags/Plugin/">
+                        <span class="chip bg-color">插件</span>
+                    </a>
+                    
+                    <a href="/tags/UE5/">
+                        <span class="chip bg-color">虚幻5</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/zh-CN/Blender-Plugin-Bone-Axis-Alignment/">
+                    <div class="card-image">
+                        
+                        <img src="/assets/images/plugin_blender_baa_01.png" class="responsive-img" alt="Blender Plugin Bone Axis Alignment">
+                        
+                        <span class="card-title">Blender Plugin Bone Axis Alignment</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Blender插件动画工具
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-01
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Plugin/" class="post-category">
+                                    插件
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Blender/">
+                        <span class="chip bg-color">Blender</span>
+                    </a>
+                    
+                    <a href="/tags/Tool/">
+                        <span class="chip bg-color">工具</span>
+                    </a>
+                    
+                    <a href="/tags/Plugin/">
+                        <span class="chip bg-color">插件</span>
+                    </a>
+                    
+                    <a href="/tags/Animation/">
+                        <span class="chip bg-color">动画</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 五谷延年<br />'
+            + '文章作者: 五谷延年<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    
+
+</main>
+
+
+
+    <footer class="page-footer bg-color">
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="http://wuguyannian.com" target="_blank">五谷延年</a>
+            <br>
+            技术支持: <a href="https://hexo.io/" target="_blank">Hexo</a> |
+            主题: <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link ">
+
+
+
+
+
+
+    <a href="https://twitter.com/wuguyannian" class="tooltipped" target="_blank" data-tooltip="关注我的Twitter: https://twitter.com/wuguyannian" data-position="top" data-delay="50">
+        <i class="fab fa-twitter"></i>
+    </a>
+
+
+
+
+
+    <a href="https://weibo.com/wuguyannian" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://weibo.com/wuguyannian" data-position="top" data-delay="50">
+        <i class="fab fa-weibo"></i>
+    </a>
+
+
+
+    <a href="https://blog.csdn.net/wuguyannian" class="tooltipped" target="_blank" data-tooltip="关注我的CSDN: https://blog.csdn.net/wuguyannian" data-position="top" data-delay="50">
+        <i class="fab fa-csdn">C</i>
+    </a>
+
+
+
+    <a href="https://www.zhihu.com/people/wuguyannian" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/wuguyannian" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+</div>   
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <link rel="stylesheet" href="/css/insight.css">
+<div class="searchbox ins-search">
+    <div class="searchbox-mask"></div>
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="请输入搜索的关键字" />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(无标题)',
+            },
+            CONTENT_URL: '/content.zh-CN.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,749 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="UE4,Game" />
+    <meta name="description" content="This is a project for my video tutorial on bilibili" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit|ie-stand|ie-comp" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    
+    <link
+        href="/zh-CN/spaceship/"
+        rel="alternate"
+        hreflang="zh-CN"
+    />
+    
+    <title>SpaceShip | Wuguyannian</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="/libs/awesome/css/all.css"
+    />
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="/libs/materialize/materialize.min.css"
+    />
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="/libs/aos/aos.css"
+    />
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="/libs/animate/animate.min.css"
+    />
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="/libs/lightGallery/css/lightgallery.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/matery.css" />
+    <link rel="stylesheet" type="text/css" href="/css/my.css" />
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="titleText" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img responsive-img"
+                        alt="LOGO">
+                    
+                </a>
+            </div>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse">
+    <i class="fas fa-bars"></i>
+</a>
+<ul class="right nav-menu">
+    
+    
+    <li class="hide-on-med-and-down nav-item">
+        
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fas fa-home" style="zoom: 0.6;"></i>
+            
+            <span>Index</span>
+        </a>
+        
+    </li>
+    
+    <li class="hide-on-med-and-down nav-item">
+        
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fas fa-tags" style="zoom: 0.6;"></i>
+            
+            <span>Tags</span>
+        </a>
+        
+    </li>
+    
+    <li class="hide-on-med-and-down nav-item">
+        
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+            
+            <span>Categories</span>
+        </a>
+        
+    </li>
+    
+    <li class="hide-on-med-and-down nav-item">
+        
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fas fa-archive" style="zoom: 0.6;"></i>
+            
+            <span>Archives</span>
+        </a>
+        
+    </li>
+    
+    <li class="hide-on-med-and-down nav-item">
+        
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+            
+            <span>About</span>
+        </a>
+        
+    </li>
+    
+
+    <li>
+        <a href="javascript:;" class="waves-effect waves-light">
+            <i class="fas fa-globe" style="zoom: 0.6;"></i>
+            <span>English</span>
+            <i class="fas fa-caret-down" aria-hidden="true" style="zoom: 0.6;"></i>
+        </a>
+        <ul class="sub-nav menus_item_child ">
+            
+            <li>
+                <a
+                    href="/spaceship/"
+                >
+                    <span>English</span>
+                </a>
+            </li>
+            
+            <li>
+                <a
+                    href="/zh-CN/spaceship/"
+                >
+                    <span>简体中文</span>
+                </a>
+            </li>
+            
+        </ul>
+    </li>
+    <li>
+        <a href="javascript:;" class="search waves-effect waves-light">
+            <i
+                id="searchIcon"
+                class="fas fa-search"
+                title="Search"
+                style="zoom: 0.85;"
+            ></i>
+        </a>
+    </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+    <div class="mobile-head bg-color">
+        <div class="logo-name">Wuguyannian</div>
+        <div class="logo-desc">Books make me good, food keeps me alive</div>
+    </div>
+    <ul class="menu-list mobile-menu-list">
+         
+        <li class="m-nav-item">
+            
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa-fw fas fa-home"></i>
+                 Index
+            </a>
+            
+        </li>
+        
+        <li class="m-nav-item">
+            
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa-fw fas fa-tags"></i>
+                 Tags
+            </a>
+            
+        </li>
+        
+        <li class="m-nav-item">
+            
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa-fw fas fa-bookmark"></i>
+                 Categories
+            </a>
+            
+        </li>
+        
+        <li class="m-nav-item">
+            
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa-fw fas fa-archive"></i>
+                 Archives
+            </a>
+            
+        </li>
+        
+        <li class="m-nav-item">
+            
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa-fw fas fa-user-circle"></i>
+                 About
+            </a>
+            
+        </li>
+         
+</ul>
+</div>
+
+        </div>
+
+        
+    </nav>
+</header>
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/assets/images/img03.png')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">SpaceShip</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/UE4/">
+                                <span class="chip bg-color">UE4</span>
+                            </a>
+                        
+                            <a href="/tags/Game/">
+                                <span class="chip bg-color">Game</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Game/" class="post-category">
+                                Game
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2020-01-06
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <html><head><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="titleText" type="application/atom+xml">
+</head><body><h1 id="SpaceShip"><a href="#SpaceShip" class="headerlink" title="SpaceShip"></a>SpaceShip</h1><p>This is a project for my video tutorial on <a href="https://www.bilibili.com/video/av69041023" target="_blank" rel="noopener">bilibili</a>, use Unreal 4.24。</p>
+<blockquote>
+<ul>
+<li><a href="https://github.com/wuguyannian/SpaceShip" target="_blank" rel="noopener">Project Link</a><br><img src="/assets/images/img03.png" alt=""></li>
+</ul>
+</blockquote>
+<h1 id="Keyborad"><a href="#Keyborad" class="headerlink" title="Keyborad"></a>Keyborad</h1><ul>
+<li>RIGHT <code>D</code></li>
+<li>LEFT <code>A</code></li>
+<li>MouseButtonLeft</li>
+</ul>
+<h1 id="Surpport-Me"><a href="#Surpport-Me" class="headerlink" title="Surpport Me"></a>Surpport Me</h1><p><img src="/assets/images/support.png" alt=""></p>
+</body></html>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://wuguyannian.com" rel="external nofollow noreferrer">wuguyannian</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://wuguyannian.com/spaceship/">http://wuguyannian.com/spaceship/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by-nd/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY-ND 4.0</a>
+                    reprint polocy. If reproduced, please indicate source
+                    <a href="http://wuguyannian.com" target="_blank">wuguyannian</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/UE4/">
+                                    <span class="chip bg-color">UE4</span>
+                                </a>
+                            
+                                <a href="/tags/Game/">
+                                    <span class="chip bg-color">Game</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+            <div class="card">
+                <a href="/Bitwarden-browser-client/">
+                    <div class="card-image">
+                        
+                        <img src="/assets/images/img01.png" class="responsive-img" alt="Bitwarden brower client">
+                        
+                        <span class="card-title">Bitwarden brower client</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            This is a clone from the official browser plugin modified by me
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-01-31
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            authorText
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Tool/">
+                        <span class="chip bg-color">Tool</span>
+                    </a>
+                    
+                    <a href="/tags/Password-Manager/">
+                        <span class="chip bg-color">Password Manager</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/ue4-plugin-datatablesave/">
+                    <div class="card-image">
+                        
+                        <img src="/assets/images/preview.png" class="responsive-img" alt="DataTable Save">
+                        
+                        <span class="card-title">DataTable Save</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Help developers procedurally update DataTable
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-05
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Plugin/" class="post-category">
+                                    Plugin
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/UE4/">
+                        <span class="chip bg-color">UE4</span>
+                    </a>
+                    
+                    <a href="/tags/Plugin/">
+                        <span class="chip bg-color">Plugin</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + 'From: Wuguyannian<br />'
+            + 'Author: wuguyannian<br />'
+            + 'Link: <a href="' + url + '">' + url + '</a><br />'
+            + 'The copyright of this article belongs to the author, please indicate the source of any reprint.';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    
+
+</main>
+
+
+
+    <footer class="page-footer bg-color">
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="http://wuguyannian.com" target="_blank">wuguyannian</a>
+            <br>
+            Power by: <a href="https://hexo.io/" target="_blank">Hexo</a> |
+            Theme: <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link ">
+
+
+
+
+
+
+    <a href="https://twitter.com/wuguyannian" class="tooltipped" target="_blank" data-tooltip="关注我的Twitter: https://twitter.com/wuguyannian" data-position="top" data-delay="50">
+        <i class="fab fa-twitter"></i>
+    </a>
+
+
+
+
+
+    <a href="https://weibo.com/wuguyannian" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://weibo.com/wuguyannian" data-position="top" data-delay="50">
+        <i class="fab fa-weibo"></i>
+    </a>
+
+
+
+    <a href="https://blog.csdn.net/wuguyannian" class="tooltipped" target="_blank" data-tooltip="关注我的CSDN: https://blog.csdn.net/wuguyannian" data-position="top" data-delay="50">
+        <i class="fab fa-csdn">C</i>
+    </a>
+
+
+
+    <a href="https://www.zhihu.com/people/wuguyannian" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/wuguyannian" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+</div>   
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <link rel="stylesheet" href="/css/insight.css">
+<div class="searchbox ins-search">
+    <div class="searchbox-mask"></div>
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="Please enter a search keyword" />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            CONTENT_URL: '/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

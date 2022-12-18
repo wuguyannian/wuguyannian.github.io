@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>titleText</title>
+  
+  <subtitle>subtitleText</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://wuguyannian.com/"/>
+  <updated>2022-12-18T14:09:41.013Z</updated>
+  <id>http://wuguyannian.com/</id>
+  
+  <author>
+    <name>authorText</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Unreal Plugin InputRecord</title>
+    <link href="http://wuguyannian.com/ue5-Plugin-InputRecord/"/>
+    <id>http://wuguyannian.com/ue5-Plugin-InputRecord/</id>
+    <published>2022-12-28T15:00:00.000Z</published>
+    <updated>2022-12-18T14:09:41.013Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Used to record and play player input to preserve a consistent test environment and help to
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Game" scheme="http://wuguyannian.com/categories/Game/"/>
+    
+    
+      <category term="Game" scheme="http://wuguyannian.com/tags/Game/"/>
+    
+      <category term="Plugin" scheme="http://wuguyannian.com/tags/Plugin/"/>
+    
+      <category term="UE5" scheme="http://wuguyannian.com/tags/UE5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>虚幻插件InputRecord</title>
+    <link href="http://wuguyannian.com/zh-CN/ue5-Plugin-InputRecord/"/>
+    <id>http://wuguyannian.com/zh-CN/ue5-Plugin-InputRecord/</id>
+    <published>2022-12-28T15:00:00.000Z</published>
+    <updated>2022-12-18T14:02:37.400Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;用于记录并播放玩家输入，以保存一致的测试环境，辅助如载具配置的调整&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;插件 链接&lt;/a&gt;&lt;br&gt;//
+        
+      
+    
+    </summary>
+    
+    
+      <category term="游戏" scheme="http://wuguyannian.com/categories/Game/"/>
+    
+    
+      <category term="游戏" scheme="http://wuguyannian.com/tags/Game/"/>
+    
+      <category term="插件" scheme="http://wuguyannian.com/tags/Plugin/"/>
+    
+      <category term="虚幻5" scheme="http://wuguyannian.com/tags/UE5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Blender Plugin Bone Axis Alignment</title>
+    <link href="http://wuguyannian.com/Blender-Plugin-Bone-Axis-Alignment/"/>
+    <id>http://wuguyannian.com/Blender-Plugin-Bone-Axis-Alignment/</id>
+    <published>2022-07-01T15:00:00.000Z</published>
+    <updated>2022-12-18T14:31:03.806Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;This is an blender plugin, can help to convert bones to epic skeleton&lt;/li&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Plugin" scheme="http://wuguyannian.com/categories/Plugin/"/>
+    
+    
+      <category term="Tool" scheme="http://wuguyannian.com/tags/Tool/"/>
+    
+      <category term="Blender" scheme="http://wuguyannian.com/tags/Blender/"/>
+    
+      <category term="Plugin" scheme="http://wuguyannian.com/tags/Plugin/"/>
+    
+      <category term="Animation" scheme="http://wuguyannian.com/tags/Animation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Blender Plugin Bone Axis Alignment</title>
+    <link href="http://wuguyannian.com/zh-CN/Blender-Plugin-Bone-Axis-Alignment/"/>
+    <id>http://wuguyannian.com/zh-CN/Blender-Plugin-Bone-Axis-Alignment/</id>
+    <published>2022-07-01T15:00:00.000Z</published>
+    <updated>2022-12-18T14:31:03.808Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;这是一个blender插件，可以帮助将骨架转换为 Epic骨架&lt;/li&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="插件" scheme="http://wuguyannian.com/categories/Plugin/"/>
+    
+    
+      <category term="Blender" scheme="http://wuguyannian.com/tags/Blender/"/>
+    
+      <category term="工具" scheme="http://wuguyannian.com/tags/Tool/"/>
+    
+      <category term="插件" scheme="http://wuguyannian.com/tags/Plugin/"/>
+    
+      <category term="动画" scheme="http://wuguyannian.com/tags/Animation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Lyra Extention Gamefeature Plugin TankArena</title>
+    <link href="http://wuguyannian.com/ue5-Plugin-Lyra-extention-TankArena/"/>
+    <id>http://wuguyannian.com/ue5-Plugin-Lyra-extention-TankArena/</id>
+    <published>2022-06-21T15:00:00.000Z</published>
+    <updated>2022-12-18T14:31:03.808Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;This is an extended game prototype example of the official example game &lt;code&gt;Lyra&lt;/code&gt;,
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Game" scheme="http://wuguyannian.com/categories/Game/"/>
+    
+    
+      <category term="Game" scheme="http://wuguyannian.com/tags/Game/"/>
+    
+      <category term="Plugin" scheme="http://wuguyannian.com/tags/Plugin/"/>
+    
+      <category term="UE5" scheme="http://wuguyannian.com/tags/UE5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Lyra扩展游戏功能插件TankArena</title>
+    <link href="http://wuguyannian.com/zh-CN/ue5-Plugin-Lyra-extention-TankArena/"/>
+    <id>http://wuguyannian.com/zh-CN/ue5-Plugin-Lyra-extention-TankArena/</id>
+    <published>2022-06-21T15:00:00.000Z</published>
+    <updated>2022-12-18T14:31:03.810Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;这是官方示例游戏&lt;code&gt;Lyra&lt;/code&gt;的扩展游戏原型示例，坦克竞技场&lt;/li&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="游戏" scheme="http://wuguyannian.com/categories/Game/"/>
+    
+    
+      <category term="游戏" scheme="http://wuguyannian.com/tags/Game/"/>
+    
+      <category term="插件" scheme="http://wuguyannian.com/tags/Plugin/"/>
+    
+      <category term="虚幻5" scheme="http://wuguyannian.com/tags/UE5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BM Weapon System</title>
+    <link href="http://wuguyannian.com/ue4-BMWeaponSystem/"/>
+    <id>http://wuguyannian.com/ue4-BMWeaponSystem/</id>
+    <published>2020-08-05T12:30:00.000Z</published>
+    <updated>2022-12-18T14:31:03.806Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;This Plugin create the base shooting flow framework, and implements the main shooting
+        
+      
+    
+    </summary>
+    
+    
+      <category term="UE4" scheme="http://wuguyannian.com/categories/UE4/"/>
+    
+    
+      <category term="UE4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="WeaponSystem" scheme="http://wuguyannian.com/tags/WeaponSystem/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BM 武器系统</title>
+    <link href="http://wuguyannian.com/zh-CN/ue4-BMWeaponSystem/"/>
+    <id>http://wuguyannian.com/zh-CN/ue4-BMWeaponSystem/</id>
+    <published>2020-08-05T12:30:00.000Z</published>
+    <updated>2022-12-18T14:31:03.809Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;这个插件创建了基础设计流程框架，并实现了主要的射击类型。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;特性&quot;&gt;&lt;a href=&quot;#特性&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="虚幻4插件" scheme="http://wuguyannian.com/categories/%E8%99%9A%E5%B9%BB4%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="虚幻4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="武器系统" scheme="http://wuguyannian.com/tags/%E6%AD%A6%E5%99%A8%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>虚幻插件TapDB</title>
+    <link href="http://wuguyannian.com/zh-CN/ue4-Plugin-TapDB/"/>
+    <id>http://wuguyannian.com/zh-CN/ue4-Plugin-TapDB/</id>
+    <published>2020-05-24T01:59:00.000Z</published>
+    <updated>2022-12-18T14:31:03.809Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;这是一个帮助链接第三方库&lt;code&gt;TapDB&lt;/code&gt;的插件,目前仅供基础的单机使用&lt;/li&gt;
+&lt;li&gt;[虚幻商城 链接]&lt;/li&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="插件" scheme="http://wuguyannian.com/categories/Plugin/"/>
+    
+    
+      <category term="虚幻4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="插件" scheme="http://wuguyannian.com/tags/Plugin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自动水印生成工具包</title>
+    <link href="http://wuguyannian.com/zh-CN/ue4-auto-watermark-toolkit/"/>
+    <id>http://wuguyannian.com/zh-CN/ue4-auto-watermark-toolkit/</id>
+    <published>2020-05-24T01:59:00.000Z</published>
+    <updated>2022-12-18T14:31:03.809Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;这款工具可以帮助我们自动生成动态水印&lt;/li&gt;
+&lt;li&gt;[虚幻商城 链接]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;特性&quot;&gt;&lt;a href=&quot;#特性&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="虚幻4" scheme="http://wuguyannian.com/categories/UE4/"/>
+    
+    
+      <category term="虚幻4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="水印" scheme="http://wuguyannian.com/tags/Watermark/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Auto Watermark Toolkit</title>
+    <link href="http://wuguyannian.com/ue4-auto-wartermark-toolkit/"/>
+    <id>http://wuguyannian.com/ue4-auto-wartermark-toolkit/</id>
+    <published>2020-05-24T01:54:00.000Z</published>
+    <updated>2022-12-18T14:31:03.807Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;This tool can help us automatically generate dynamic watermark&lt;/li&gt;
+&lt;li&gt;[Unreal Marketplace
+        
+      
+    
+    </summary>
+    
+    
+      <category term="UE4" scheme="http://wuguyannian.com/categories/UE4/"/>
+    
+    
+      <category term="UE4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="Watermark" scheme="http://wuguyannian.com/tags/Watermark/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unreal Plugin TapDB</title>
+    <link href="http://wuguyannian.com/ue4-plugin-TapDB/"/>
+    <id>http://wuguyannian.com/ue4-plugin-TapDB/</id>
+    <published>2020-05-24T01:54:00.000Z</published>
+    <updated>2022-12-18T14:31:03.807Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;This is a plugin that helps link to the third party library TapDB and is currently only
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Plugin" scheme="http://wuguyannian.com/categories/Plugin/"/>
+    
+    
+      <category term="UE4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="Plugin" scheme="http://wuguyannian.com/tags/Plugin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BattleCity</title>
+    <link href="http://wuguyannian.com/battlecity/"/>
+    <id>http://wuguyannian.com/battlecity/</id>
+    <published>2020-05-24T01:24:00.000Z</published>
+    <updated>2022-12-18T14:31:03.806Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;BattleCity&quot;&gt;&lt;a href=&quot;#BattleCity&quot; class=&quot;headerlink&quot; title=&quot;BattleCity&quot;&gt;&lt;/a&gt;BattleCity&lt;/h1&gt;&lt;p&gt;This is a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Game" scheme="http://wuguyannian.com/categories/Game/"/>
+    
+    
+      <category term="UE4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="Game" scheme="http://wuguyannian.com/tags/Game/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BattleCity</title>
+    <link href="http://wuguyannian.com/zh-CN/battlecity/"/>
+    <id>http://wuguyannian.com/zh-CN/battlecity/</id>
+    <published>2020-05-24T01:00:00.000Z</published>
+    <updated>2022-12-18T14:31:03.808Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;BattleCity&quot;&gt;&lt;a href=&quot;#BattleCity&quot; class=&quot;headerlink&quot; title=&quot;BattleCity&quot;&gt;&lt;/a&gt;BattleCity&lt;/h1&gt;&lt;p&gt;这是我，在&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="游戏" scheme="http://wuguyannian.com/categories/Game/"/>
+    
+    
+      <category term="虚幻4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="游戏" scheme="http://wuguyannian.com/tags/Game/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bitwarden brower client</title>
+    <link href="http://wuguyannian.com/Bitwarden-browser-client/"/>
+    <id>http://wuguyannian.com/Bitwarden-browser-client/</id>
+    <published>2020-01-31T11:29:11.000Z</published>
+    <updated>2022-12-18T14:31:03.805Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/wuguyannian/bitwarden-brower-client&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Tool" scheme="http://wuguyannian.com/tags/Tool/"/>
+    
+      <category term="Password Manager" scheme="http://wuguyannian.com/tags/Password-Manager/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bitwarden 浏览器客户端</title>
+    <link href="http://wuguyannian.com/zh-CN/Bitwarden-browser-client/"/>
+    <id>http://wuguyannian.com/zh-CN/Bitwarden-browser-client/</id>
+    <published>2020-01-31T11:29:11.000Z</published>
+    <updated>2022-12-18T14:31:03.808Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://gitee.com/wuguyannian/bitwarden-brower-client&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="工具" scheme="http://wuguyannian.com/tags/Tool/"/>
+    
+      <category term="密码管理" scheme="http://wuguyannian.com/tags/Password-Manager/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpaceShip</title>
+    <link href="http://wuguyannian.com/spaceship/"/>
+    <id>http://wuguyannian.com/spaceship/</id>
+    <published>2020-01-06T06:00:00.000Z</published>
+    <updated>2022-12-18T14:31:03.806Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;SpaceShip&quot;&gt;&lt;a href=&quot;#SpaceShip&quot; class=&quot;headerlink&quot; title=&quot;SpaceShip&quot;&gt;&lt;/a&gt;SpaceShip&lt;/h1&gt;&lt;p&gt;This is a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Game" scheme="http://wuguyannian.com/categories/Game/"/>
+    
+    
+      <category term="UE4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="Game" scheme="http://wuguyannian.com/tags/Game/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpaceShip</title>
+    <link href="http://wuguyannian.com/zh-CN/spaceship/"/>
+    <id>http://wuguyannian.com/zh-CN/spaceship/</id>
+    <published>2020-01-06T06:00:00.000Z</published>
+    <updated>2022-12-18T14:31:03.809Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;SpaceShip&quot;&gt;&lt;a href=&quot;#SpaceShip&quot; class=&quot;headerlink&quot; title=&quot;SpaceShip&quot;&gt;&lt;/a&gt;SpaceShip&lt;/h1&gt;&lt;p&gt;这是我，在&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="游戏" scheme="http://wuguyannian.com/categories/Game/"/>
+    
+    
+      <category term="虚幻4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="游戏" scheme="http://wuguyannian.com/tags/Game/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>表格保存</title>
+    <link href="http://wuguyannian.com/zh-CN/ue4-plugin-datatablesave/"/>
+    <id>http://wuguyannian.com/zh-CN/ue4-plugin-datatablesave/</id>
+    <published>2020-01-06T06:00:00.000Z</published>
+    <updated>2022-12-18T14:31:03.810Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="插件" scheme="http://wuguyannian.com/categories/Plugin/"/>
+    
+    
+      <category term="虚幻4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="插件" scheme="http://wuguyannian.com/tags/Plugin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DataTable Save</title>
+    <link href="http://wuguyannian.com/ue4-plugin-datatablesave/"/>
+    <id>http://wuguyannian.com/ue4-plugin-datatablesave/</id>
+    <published>2020-01-05T09:30:25.000Z</published>
+    <updated>2022-12-18T14:31:03.807Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Plugin" scheme="http://wuguyannian.com/categories/Plugin/"/>
+    
+    
+      <category term="UE4" scheme="http://wuguyannian.com/tags/UE4/"/>
+    
+      <category term="Plugin" scheme="http://wuguyannian.com/tags/Plugin/"/>
+    
+  </entry>
+  
+</feed>
